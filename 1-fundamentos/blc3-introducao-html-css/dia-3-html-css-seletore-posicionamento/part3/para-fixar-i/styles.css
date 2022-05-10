@@ -1,0 +1,15 @@
+p, h1{
+    text-align: center;
+}
+
+ol li:hover{
+    background-color: blueviolet;
+}
+
+ol li:active{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li{
+    list-style: none;
+}
