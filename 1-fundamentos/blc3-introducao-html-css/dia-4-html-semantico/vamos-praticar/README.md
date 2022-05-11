@@ -8,13 +8,13 @@ Para tal, criaremos uma página que apresenta um dos animais mais impressionante
 
 Requisitos:
 
-[ ] - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
-[ ] - Adicione um conjunto de links que representam a área de navegação do site.
-* Crie um link chamado Página Inicial.
-* Crie um link chamado Sobre.
-* Crie um link chamado Contato.
+[x] - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
+[x] - Adicione um conjunto de links que representam a área de navegação do site.
+:white_check_box: Crie um link chamado Página Inicial.
+:white_check_box: Crie um link chamado Sobre.
+:white_check_box: Crie um link chamado Contato.
 
-[ ] - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda. O artigo terá o subtítulo Fatos sobre o Stomatopoda. Segue um site animal de inspiração para pegar fatos.
+[x] - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda. O artigo terá o subtítulo Fatos sobre o Stomatopoda. Segue um site animal de inspiração para pegar fatos.
 
 [ ] - Divida o artigo em seções, organizando-o da seguinte forma:
 * Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico, que é Odontodactylus scyllarus, em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: Reino, Filo, Subfilo, Classe, Subclasse e Ordem. Tais informações você consegue obter na Wikipedia.
