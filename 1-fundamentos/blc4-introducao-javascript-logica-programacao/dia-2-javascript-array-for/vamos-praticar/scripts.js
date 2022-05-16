@@ -112,8 +112,49 @@ for (let index = 0; index < newArray.length; index += 1) {
 
 // Exercicios Bônus
 
+// Ordene o array numbers em ordem crescente e imprima seus valores;
 
+let arrayNumbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
+for (let indexNumber = 1; indexNumber < arrayNumbers.length; indexNumber += 1) {
+  for (let secondIndex = 0; secondIndex < indexNumber; secondIndex += 1) {
+    if (arrayNumbers[indexNumber] < arrayNumbers[secondIndex]) {
+      let position = arrayNumbers[indexNumber];
+      arrayNumbers[indexNumber] = arrayNumbers[secondIndex];
+      arrayNumbers[secondIndex] = position;
+    }
+  }
+}
 
+console.log(arrayNumbers);
 
+// Ordene o array numbers em ordem decrescente e imprima seus valores;
 
+let arrayNumbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let indexNumber = 1; indexNumber < arrayNumbers.length; indexNumber += 1) {
+  for (let secondIndex = 0; secondIndex < indexNumber; secondIndex += 1) {
+    if (arrayNumbers[indexNumber] > arrayNumbers[secondIndex]) {
+      let position = arrayNumbers[indexNumber];
+      arrayNumbers[indexNumber] = arrayNumbers[secondIndex];
+      arrayNumbers[secondIndex] = position;
+    }
+  }
+}
+
+console.log(arrayNumbers);
+
+// Agora crie um novo array a partir do array numbers, sem perdê-lo. Cada valor do novo array deverá ser igual ao valor correspondente no array numbers multiplicado pelo seguinte
+
+let arrayNumbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let arrayNumbersTwo = []
+
+for (let index = 0; index < arrayNumbers.length; index += 1) {
+    if (index + 1 < arrayNumbers.length) {
+      arrayNumbersTwo.push (arrayNumbers[index] * arrayNumbers[index + 1])
+    } else {
+      arrayNumbersTwo.push (arrayNumbers[index] * 2)
+    }
+}
+
+console.log(arrayNumbersTwo);
